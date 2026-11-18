@@ -7,6 +7,13 @@ a single `<canvas>` — there is no engine and no build step.
 
 **[▶ Play it](https://adrielleestacio.github.io/Circular-Tower-Game/)**
 
+> **Credit.** This is not my design. It is adapted from the
+> **[Unruly Tower](https://codepen.io/johan-tirholm/pen/jZorRd)** pen by
+> [johan-tirholm](https://codepen.io/johan-tirholm) on CodePen, including the
+> sprite art, which still loads from that pen's asset host. I put it here as
+> a study piece — a worked example of a canvas game loop to read and take
+> apart — and deployed it to GitHub Pages.
+
 ![The tower interior: a stone shaft with wooden platforms and doorways, and the player standing on a platform](docs/screenshot.webp)
 
 ## Controls
@@ -30,7 +37,7 @@ needs a network connection even when it is served locally.
 
 ## How it works
 
-Everything lives in `index.html`, in rough reading order:
+Everything lives in `index.html`. In rough reading order:
 
 | Piece | What it does |
 | --- | --- |
@@ -49,3 +56,5 @@ that figure to hold its arc steady when frames come in faster than every 30ms.
 ## Built with
 
 Vanilla JavaScript · HTML5 Canvas · GitHub Pages
+
+Original pen by [johan-tirholm](https://codepen.io/johan-tirholm/pen/jZorRd).
